@@ -11,3 +11,4 @@ requests==2.32.3
 transformers>=4.44.0
 sentencepiece>=0.2.0
 protobuf>=5.27.2
+faster-whisper>=1.0.3
