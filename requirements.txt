@@ -3,8 +3,8 @@ python-dotenv==1.0.1
 flask==3.0.0
 aiohttp==3.9.3
 Pillow>=11.2.0
-numpy==2.2.5
-opencv-python==4.9.0.80
+numpy==2.2.5          # для Python 3.12 есть wheel
+opencv-python>=4.11.0  # добавим, так как используется в коде
 pydub==0.25.1
 ffmpeg-python==0.2.0
 requests==2.32.3
